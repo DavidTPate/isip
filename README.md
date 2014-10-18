@@ -1,6 +1,6 @@
 isIP
 =====
-[![NPM version](https://badge.fury.io/js/isip.svg)](http://badge.fury.io/js/isip)
+[![NPM version](https://badge.fury.io/js/isip.svg)](http://badge.fury.io/js/isipaddress)
 [![Build Status](https://travis-ci.org/DavidTPate/isip.svg?branch=master)](https://travis-ci.org/DavidTPate/isip)
 [![Coverage Status](https://img.shields.io/coveralls/DavidTPate/isip.svg?branch=master)](https://coveralls.io/r/DavidTPate/isip)
 
@@ -15,7 +15,7 @@ $ npm install isip
 
 ## Node.js
 ```js
-var isIP = require('isip');
+var isIP = require('isipaddress');
 
 isIP.test('127.0.0.1'); // returns true
 isIP.test('FEDC:BA98:7654:3210:FEDC:BA98:7654:3210/16'); // returns true
