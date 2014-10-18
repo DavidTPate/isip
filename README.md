@@ -10,7 +10,7 @@ Pure Javascript implementation for truly checking if the provided input is an IP
 
 #### NPM
 ```bash
-$ npm install isip
+$ npm install isipaddress
 ```
 
 ## Node.js
