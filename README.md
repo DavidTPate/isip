@@ -2,6 +2,7 @@ isIP
 =====
 [![NPM version](https://badge.fury.io/js/isip.svg)](http://badge.fury.io/js/isipaddress)
 [![Build Status](https://travis-ci.org/DavidTPate/isip.svg?branch=master)](https://travis-ci.org/DavidTPate/isip)
+[![Code Climate](https://codeclimate.com/github/DavidTPate/isip/badges/gpa.svg)](https://codeclimate.com/github/DavidTPate/isip)
 [![Coverage Status](https://img.shields.io/coveralls/DavidTPate/isip.svg?branch=master)](https://coveralls.io/r/DavidTPate/isip)
 
 Pure Javascript implementation for truly checking if the provided input is an IP address. Based on [RFC 791 (IPv4)](http://tools.ietf.org/html/rfc791), [RFC 4291 (IPv6)](http://tools.ietf.org/html/rfc4291), and [RFC 4632 (CIDR)](http://tools.ietf.org/html/rfc4632).
