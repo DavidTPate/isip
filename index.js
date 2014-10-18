@@ -184,7 +184,7 @@
         IPv6NoneHex = '(' + h16 + ':){0,4}' + h16 + '::' + ls32,
         IPv6NoneHex2 = '(' + h16 + ':){0,5}' + h16 + '::' + h16,
         IPv6NoneHex3 = '(' + h16 + ':){0,6}' + h16 + '::',
-        IPv6address = '((' + IPv6SixHex + or + IPv6FiveHex + or + IPv6FourHex + or + IPv6ThreeeHex + or + IPv6TwoHex + or + IPv6OneHex + or + IPv6NoneHex + or + IPv6NoneHex2 + or + IPv6NoneHex3 + ')(' + cidr + ')?)';
+        IPv6address = '((' + IPv6SixHex + or + IPv6FiveHex + or + IPv6FourHex + or + IPv6ThreeeHex + or + IPv6TwoHex + or + IPv6OneHex + or + IPv6NoneHex + or + IPv6NoneHex2 + or + IPv6NoneHex3 + ')(\\/(' + cidr + '))?)';
 
     /**
      * IP Future Versions (http://tools.ietf.org/html/rfc3986#page-19)

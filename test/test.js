@@ -25,6 +25,7 @@
                     'v1.09azAZ-._~!$&\'()*+,;=:',
                     'a:b:c:d:e::1.2.3.4',
                     'FEDC:BA98:7654:3210:FEDC:BA98:7654:3210',
+                    'FEDC:BA98:7654:3210:FEDC:BA98:7654:3210/16',
                     '1080:0:0:0:8:800:200C:417A',
                     '127.0.0.1'
                 ],
@@ -32,7 +33,8 @@
                     '192.0.2.16:80/30',
                     '192.0.2.16a',
                     'qwerty',
-                    '127.0.0.1:8000'
+                    '127.0.0.1:8000',
+                    'Bananas in pajamas are coming down the stairs'
                 ];
 
             describe('Validity Tests', function () {
@@ -65,7 +67,8 @@
                     'a:b:c:d:e::1.2.3.4',
                     '192.0.2.16a',
                     'qwerty',
-                    '127.0.0.1:8000'
+                    '127.0.0.1:8000',
+                    'Bananas in pajamas are coming down the stairs'
                 ];
 
             describe('Validity Tests', function () {
@@ -90,6 +93,7 @@
                     '2001:db8::7',
                     'a:b:c:d:e::1.2.3.4',
                     'FEDC:BA98:7654:3210:FEDC:BA98:7654:3210',
+                    'FEDC:BA98:7654:3210:FEDC:BA98:7654:3210/32',
                     '1080:0:0:0:8:800:200C:417A'
                 ],
                 invalidIPv6s = [
@@ -99,7 +103,8 @@
                     '192.0.2.16a',
                     'qwerty',
                     '127.0.0.1:8000',
-                    '127.0.0.1'
+                    '127.0.0.1',
+                    'Bananas in pajamas are coming down the stairs'
                 ];
 
             describe('Validity Tests', function () {
@@ -133,7 +138,8 @@
                     'a:b:c:d:e::1.2.3.4',
                     'FEDC:BA98:7654:3210:FEDC:BA98:7654:3210',
                     '1080:0:0:0:8:800:200C:417A',
-                    '127.0.0.1'
+                    '127.0.0.1',
+                    'Bananas in pajamas are coming down the stairs'
                 ];
 
             describe('Validity Tests', function () {
