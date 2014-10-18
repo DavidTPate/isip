@@ -104,6 +104,13 @@
     var or = '|';
 
     /**
+     * Rule to support zero-padded addresses.
+     *
+     * @type {string}
+     */
+    var zeroPad = '0?';
+
+    /**
      * dec-octect (http://tools.ietf.org/html/rfc3986#page-20)
      *
      * dec-octet   = DIGIT                ; 0-9
@@ -114,7 +121,7 @@
      *
      * @type {string}
      */
-    var decOctect = '(' + digitOnly + or + '[1-9]' + digitOnly + or + '1' + digitOnly + digitOnly + or + '2' + '[0-4]' + digitOnly + or + '25' + '[0-5])';
+    var decOctect = '(' + zeroPad + zeroPad + digitOnly + or + zeroPad + '[1-9]' + digitOnly + or + '1' + digitOnly + digitOnly + or + '2' + '[0-4]' + digitOnly + or + '25' + '[0-5])';
 
     /**
      * cidr (http://tools.ietf.org/html/rfc4632#page-5)
