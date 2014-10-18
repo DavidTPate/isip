@@ -1,6 +1,6 @@
 {
-    "name": "isuri",
-    "description": "Pure Javascript implementation for truly checking if the provided input is an URI. Based on RFC 3986.",
+    "name": "isipaddress",
+    "description": "Pure Javascript implementation for truly checking if the provided input is an IP address. Based on RFC 791 (IPv4), RFC 4291 (IPv6), and RFC 4632 (CIDR).",
     "version": "0.0.1",
     "author": {
         "name" : "David Pate",
@@ -8,20 +8,24 @@
         "url" : "http://davidtpate.com"
     },
     "keywords": [
-        "uri",
-        "url",
+        "ip",
+        "ipv4",
+        "ipv6",
+        "ipvfuture",
+        "ipaddress",
+        "internet protocol",
         "type",
         "checker",
         "validator",
         "validate"
     ],
-    "homepage": "https://github.com/DavidTPate/isuri",
+    "homepage": "https://github.com/DavidTPate/isip",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DavidTPate/isuri.git"
+        "url": "https://github.com/DavidTPate/isip.git"
     },
     "bugs": {
-        "url": "https://github.com/DavidTPate/isuri/issues"
+        "url": "https://github.com/DavidTPate/isip/issues"
     },
     "license": "MIT",
     "main": "index.js",
