@@ -1,7 +1,7 @@
 {
     "name": "isipaddress",
     "description": "Pure Javascript implementation for truly checking if the provided input is an IP address. Based on RFC 791 (IPv4), RFC 4291 (IPv6), and RFC 4632 (CIDR).",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name" : "David Pate",
         "email" : "me@davidtpate.com",
