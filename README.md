@@ -1,5 +1,7 @@
 isIP
 =====
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/DavidTPate/isip.svg)](https://greenkeeper.io/)
 [![NPM version](https://badge.fury.io/js/isip.svg)](http://badge.fury.io/js/isipaddress)
 [![Build Status](https://travis-ci.org/DavidTPate/isip.svg?branch=master)](https://travis-ci.org/DavidTPate/isip)
 [![Code Climate](https://codeclimate.com/github/DavidTPate/isip/badges/gpa.svg)](https://codeclimate.com/github/DavidTPate/isip)
