@@ -31,7 +31,7 @@
     "main": "index.js",
     "devDependencies": {
         "istanbul": "^0.x",
-        "mocha": "^3.3.0",
+        "mocha": "^5.0.0",
         "should": "^13.1.0",
         "benchmark": "^2.1.4",
         "beautify-benchmark": "^0.x"
